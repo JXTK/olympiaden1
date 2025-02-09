@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Contact | Olympia Den </title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" href = "images/gym_logo.png" type = "image/x-icon">
+	<script src="script.js"></script>
+	<style type="text/css">
+.form-box {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+  background: #ffffff;
+  border: 10px solid #f2f2f2;
+}
+h1, p {
+  text-align: center;
+}
+input, textarea {
+  width: 100%;
+}
+	</style>
+</head>
+
+<body bgcolor="black">
+	<nav id='menu'>
+		<input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+		<ul>
+			<li><a href='index.html'>Home</a></li>
+			<li><a href='about.html'>About</a></li>
+			<li><a href='products.html'>Products</a></li>
+			<li><a class='dropdown-arrow' href='services.html'>Services</a>
+				<ul class='sub-menus'>
+					<li><a href='services.html#personal'>Personal Gym Training</a></li>
+					<li><a href='services.html#calisthenics'>Calisthenics</a></li>
+					<li><a href='services.html#crossfit'>Crossfit</a></li>
+					<li><a href='services.html#diet'>Diet Control</a></li>
+				</ul>
+			</li>
+			<li><a href='coaches.html'>Coaches</a></li>
+			<li><a href='contact.html'>Contact Us</a></li>
+		</ul>
+	</nav>  
+
+	<hr style="margin-top: 100px; border: none;">
+	
+	<div class="form-box"> 
+  <h1>Contact Us</h1>
+  <form action="mailto:jbeatsking@gmail.com" method="post">
+      <label for="name">Name</label> 
+      <input id="name" type="text" name="Name"> <br><br>
+    
+      <label for="email">Email</label>
+      <input id="email" type="email" name="Email"> <br><br>
+    
+      <label for="message">Message</label>
+      <textarea id="message" name="Message" rows="8"></textarea> <br>
+    <input class="button-primary" type="submit" value="Submit" />
+  </form>
+</div>
+<br> <br>
+	<section>
+		If you are a teenager, who doesn't know whether you should start lifting yet, then this video will help you out:
+		<video style="margin: auto;" width="30%" controls>
+<source src="Teen_Lifting_Daddy_Noel.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</section>
+</body>
+</html>
